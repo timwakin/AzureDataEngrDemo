@@ -266,7 +266,7 @@
 										"source": {
 											"type": "SqlServerSource",
 											"sqlReaderQuery": {
-												"value": "@{concat('SELECT * FROM ',item().schemaname,',',item().tablename)}",
+												"value": "@{concat('SELECT * FROM ',item().schemaname,'.',item().tablename)}",
 												"type": "Expression"
 											},
 											"queryTimeout": "02:00:00",
