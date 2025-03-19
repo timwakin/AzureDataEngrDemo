@@ -1,0 +1,9 @@
+{
+	"name": "dataEngProj-df",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9e70a28e-1a6b-4534-80a9-38e27e2dd08c",
+		"tenantId": "26049b65-96cc-487f-b627-f1aba5d0f9d5"
+	}
+}
