@@ -14,6 +14,12 @@
 		"AzureDataLakeStorageLinkedService_properties_typeProperties_url": {
 			"value": "https://dstoragetwa.dfs.core.windows.net/"
 		},
+		"AzureDatabricksLinkedService_properties_typeProperties_existingClusterId": {
+			"value": "0320-184544-v064xt25"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://twa-keyvault.vault.azure.net/"
+		},
 		"SqlServer1_properties_typeProperties_server": {
 			"value": "TPV"
 		},
