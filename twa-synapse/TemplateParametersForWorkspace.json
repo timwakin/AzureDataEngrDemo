@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workspaceName": {
+			"value": "twa-synapse"
+		},
+		"AzureDataLakeStorageLinkedService_accountKey": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"twa-synapse-WorkspaceDefaultSqlServer_connectionString": {
+			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=tcp:twa-synapse.sql.azuresynapse.net,1433;Initial Catalog=@{linkedService().DBName}"
+		},
+		"AzureDataLakeStorageLinkedService_properties_typeProperties_url": {
+			"value": "https://dstoragetwa.dfs.core.windows.net/"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://twa-keyvault.vault.azure.net/"
+		},
+		"AzureSqlDatabase_Gold_properties_typeProperties_server": {
+			"value": "twa-synapse-ondemand.sql.azuresynapse.net"
+		},
+		"AzureSqlDatabase_Gold_properties_typeProperties_database": {
+			"value": "gold_db"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "TPV"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "AdventureWorksLT2022"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "ta"
+		},
+		"twa-synapse-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://dstoragetwa.dfs.core.windows.net"
+		}
+	}
+}
