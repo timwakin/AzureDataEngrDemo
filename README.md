@@ -8,6 +8,9 @@ that will be scheduled to run daily, extract data from on premises SQL Server da
 the necessary transformations to make the data more query friendly.  The transformed data will then
 be fed into a custom built report that satisfies the hypothetical requirements. 
 
+
+![Screenshot 2025-03-26 081944](https://github.com/user-attachments/assets/f5885e2d-b6a0-4ba5-9e91-11b191c6594e)
+
 ## Technologies Used
 * **SQL Server** for the source data
 * **Azure key vault** to securely manage credentials and secrets
